@@ -1,0 +1,275 @@
+/* --------------------- Google Fonts ----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+/* ---------------------Reset Css------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pdd {
+    padding: 16px;
+}
+
+/* --------------------------Base Css-------------------------- */
+.font {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f1f1f1!important;
+}
+#main {
+    width: 100%;
+}
+
+/* ----------------Intro CSS ------------------------- */
+
+.main__intro {
+    width: 30%;
+    /* background-color: rgb(138, 113, 113); */
+    box-shadow: 0 0 10px 2px rgb(172, 160, 160) ;
+    margin: 16px 2px 16px 16px;
+    border-radius: 4px;
+    float: left;
+
+}
+
+.main__avatar {
+    position: relative;
+}
+
+.main__avatar .title-avatar {
+    position: absolute;
+    bottom: 16px;
+    left: 20px;
+    color: rgb(245, 252, 244);
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "roboto",sans-serif;
+}
+
+.img-intro {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.container {
+    /* margin-left: 20px; */
+
+}
+
+.main__intro .intro-container {
+    /* padding: 16px 0; */
+    border-bottom: 1px solid #e6dede;
+    margin: 0 20px 0 0;
+
+}
+
+.main__intro .intro-container>span {
+    line-height: 2.4;
+    color: #757575;
+    margin: 10px 14px;
+    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main__intro .intro-container>i {
+    font-size: 22px;
+    color: #009688;
+}
+/* ------------------Skill CSS------------------- */
+.my-skill {
+}
+.my-skill i {
+    font-size: 18px;
+    color: #009688;
+    padding: 18px 0;
+
+}
+
+.my-skill>span {
+    color: #646262 !important;
+    font-weight: 560;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.my-skill .skill-exp, 
+.language-exp {
+    background-color: #e6e0e0;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 14px;
+
+}
+
+.percent{
+    text-align: center;
+    width: 100%;
+    background-color: #009688;
+    line-height: 1.4;
+    font-size: 14px;
+    border-radius: 14px;
+    color: #f1f1f1;
+}
+.percent90 {
+    width: 90%;
+}
+
+.percent80 {
+    width: 80%;
+}
+
+.percent10 {
+    width: 10%;
+}
+
+
+/* -------------------------Language Css------------------------ */
+.my-language i{
+    font-size: 18px;
+    color: #009688;
+    padding: 18px 0;
+
+}
+
+.my-language>span {
+    color: #646262 !important;
+    font-weight: 560;
+    font-size: 18px;
+    margin-left: 20px;
+    
+}
+
+.percent40{
+    width: 40%;
+}
+
+
+/* ----------------Content CSS------------------------- */
+.exp__content {
+    float: right;
+    width: 66.3%;
+    box-shadow: 0 0 10px 2px rgb(172 160 160);
+    background-color: #fff;
+    margin: 16px 16px 16px 0;
+    border-radius: 4px;
+
+}
+
+.exp__content-work-exp {
+    padding: 0 30px;
+    margin: 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #757575;
+}
+
+.fa-suitcase {
+    font-size: 34px;
+    color: #009688;
+    padding: 20px 14px 20px 0;
+    margin-left: -6px;
+}
+
+.exp__content .title { 
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.title-child {
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.exp__content .exp__content-work-exp .exp-time {
+    font-size: 16px;
+    padding: 10px 0;
+    color: #009688;
+}
+
+.fa-calendar-alt {
+    color: #009688;
+    font-size: 16px;
+    padding-right: 10px;
+    margin-left: 4px;
+}
+
+.font-end-exp .current {
+    background-color: #009688;
+    color: #fff;
+    padding: 0 4px 2px 4px;
+    line-height:26px;
+    border-radius: 4px;
+}
+.exp-para  {
+    color: #333232;
+    padding: 18px 0 30px 0px;
+    border-bottom: 1px solid #e6dede;
+}
+
+/* -------------------my-project------------- */
+#my-project {
+    width: 30%;
+    background-color: #fff;
+    box-shadow: 0 0 10px 2px rgb(172, 160, 160) ;
+    margin: 0px 2px 16px 16px;
+    border-radius: 4px;
+    float: left;
+
+}
+
+#my-project .contai {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #646262;
+    font-weight: 560;
+    font-size: 18px;
+    margin-left: 20px;
+}
+#my-project  i {
+    font-size: 18px;
+    padding-bottom: 14px;
+    margin-left: -20px;
+    margin-right: 10px;
+    color: #009688;
+}
+.list-project {
+    font-size: 14px;
+    margin-left: 24px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+/* -------------------Footer------------------ */
+#footer {
+    width: 100%;
+    background-color: #009688;
+    display: inline-block;
+    font-family: 'roboto';
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+#footer p {
+    margin: 8px 0;
+}
+
+#footer p,
+#footer i {
+    padding: 8px 2px 8px 2px;
+}
+
+#footer i:hover {
+    cursor: pointer;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #fff;
+}
