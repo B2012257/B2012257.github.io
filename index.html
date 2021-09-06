@@ -4,135 +4,206 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/Css/style.css">
-    <link rel="stylesheet" href="assets/Css/fontawesome-free-5.15.3-web/css/all.css">
-    <title>My Cv</title>
+    <title>Document</title>
+    <style>
+      
+        body {
+            background-image: linear-gradient(to right bottom, #ead6ee 40%, #a0f1ea);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .main {
+            overflow: hidden;
+        }
+        .item {
+           background-color: rgb(255, 255, 255);
+            width: 31%;
+            height: 300px;
+            margin-right: 10px;
+            margin-top: 10px;
+            float: left;
+            padding: 10px;
+        }
+        #map {
+            /* position: relative; */
+            width: 100%;
+        }
+        #map img {
+            /* position: absolute; */
+            /* position: absolute; */
+            margin-top: 20px;
+            /* width: 60%; */
+        }
+        input {
+            padding: 8px;
+            margin-bottom: 6px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+        }
+        input.btn {
+            cursor: pointer;
+        }
+        
+    </style>
 </head>
 <body>
-    <div id="main">
-
-        <!-- -----------------Intro--------------------- -->
-        <div class="main__intro">
-            <div class="main__avatar">
-                <img src="./assets/Img/avatar.jpg" alt="" class="img-intro">
-                <p class="title-avatar">Thai Pham</p>
-            </div>
-            <div class="container pdd">
-                <div class="intro-container">
-                    <i class="fa fa-briefcase"></i><span>Full-stack Developer (In the Future)</span> <br />
-                    <i class="fa fa-home"></i><span>Ca Mau, Viet Nam</span><br />
-                    <i class="fa fa-envelope"></i><span>thaistar1998@gmail.com</span> <br /> 
-                    <i class="fa fa-phone"></i><span>0909911991</span> <br />
-                
-                </div>
-            
-                <div class="my-skill font">
-                    <i class="fa fa-asterisk"></i><span>Skills</span>
-
-                    <p>HTML</p>
-                    <div class="skill-exp"><div class="percent percent90">90%</div></div>
-
-                    <p>CSS</p>
-                    <div class="skill-exp"><div class="percent percent80">80%</div></div>
-
-                    <p>Javascript</p>
-                    <div class="skill-exp"><div class="percent percent10">10%</div></div>
-
-                </div>
-
-                <div class="my-language font">
-                    <i class="fa fa-globe"></i><span>Language</span>
-                    <p>English</p>
-                    <div class="language-exp">
-                        <div class="percent percent40">40%</div>
-                    </div>
-                </div>
-            </div>
+    <div class="main">
+        <div class="item">
+            <h3>Unordered List</h3>
+            <ul>
+                <li>PHP</li>
+                <li>C#</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Javascript</li>
+            </ul>
         </div>
 
-        <!-- ---------------------------Experience-------------------- -->
-        <div class="exp__content">
-            <div class="exp__content-work-exp">
-                <i class="fa fa-suitcase"></i> <span class="exp__content-title title">Work Experience</span>
-                <div class="font-end-exp">
-                    <h5 class="font-end-exp-title title-child">Front End Developer / w3schools.com</h5>
-                    <i class="fas fa-calendar-alt"></i><span class="exp-time">Jan 2015 - <span class="current">Current</span></span>
-                    <p class="exp-para">Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-                </div>
-                
-                <div class="back-end-exp">
-                    <h5 class="back-end-exp-title title-child">Back End Developer / PHP </h5>
-                    <i class="fas fa-calendar-alt"></i><span class="exp-time">June 2016 - <span>Dec 2020</span></span>
-                    <p class="exp-para">Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.
-
-                    </p>
-                </div>
-
-                <div class="web-dev">
-                    <h5 class="web-dev-exp-title title-child">Website Developer / b2012257.github.io</h5>
-                    <i class="fas fa-calendar-alt"></i><span class="exp-time">April 2016 - <span>Sep 2021</span></span>
-                    <p class="exp-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-
-
-            </div> 
-            
-            <!---------------------Education----------------------------  -->
-            <div class="main__content-education">
-                <div class="exp__content-work-exp">
-                    <i class="fa fa-suitcase"></i> <span class="exp__content-title title">Educaton</span>
-                    <div class="font-end-exp">
-                        <h5 class="font-end-exp-title title-child">W3Schools.com</h5>
-                        <i class="fas fa-calendar-alt"></i><span class="exp-time">Jan 2015 - <span class="">Forever</span></span>
-                        <p class="exp-para">Web Development! All I need to know in one place
-
-                        </p>
-                    </div>
-                    
-                    <div class="back-end-exp">
-                        <h5 class="back-end-exp-title title-child">Can Tho University </h5>
-                        <i class="fas fa-calendar-alt"></i><span class="exp-time">Sep 2020 - <span>July 2024</span></span>
-                        <p class="exp-para">Software Engineer</p>
-                    </div>
-    
-                    <div class="web-dev">
-                        <h5 class="web-dev-exp-title title-child">Nguyen Thi Minh Khai High School</h5>
-                        <i class="fas fa-calendar-alt"></i><span class="exp-time">April 2016 - <span>Sep 2020</span></span>
-                        <p class="exp-para">Time to remember!</p>
-                    </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div id="my-project">
-        <div class="pdd contai">
-            <i class="fab fa-firefox"></i><span class="pj-title">Project Static Web</span>
-            
-            <ol type="1" class="list-project">
-                <li>The Band Powered by W3Schools</li>
-                <li>Twitter Login Web Clone</li>
-                <li>Facebook Web Clone</li>
-                <li>Zing Mp3 Web Clone</li>
-                <li>Coffe Web</li>
-                <li>Travel Web</li>
-                <li>Tutorial Online Web</li>
+        <div class="item">
+            <h3>Ordered List</h3>
+            <ol>
+                <li>PHP</li>
+                <li>Html</li>
+                <li>CSS</li>
             </ol>
+            <h3>Ordered List Type = I</h3>
+            <ol type="I">
+                <li>Cake</li>
+                <li>Coffe</li>    
+            </ol>
+            
         </div>
-    </div>
 
-    <!-- -----------------------Footer-------------------------- -->
-    <div id="footer">
-        <p class="">Find me on social media.</p>
+        <div class="item">
+            <span>Congratulations!</span><br />
+            <u>Congratulations!</u><br />
+            <!-- <em>Congratulations!<em><br /> -->
+            <i>Congratulations!</i><br />
+            <small>Congratulations!</small><br />
+            <mark>Congratulations!</mark><br />
+            <pre>xxxxxxxxxxxxxxx
+                xxxxxxxxxx    xxxxxxxxx
+                x      xxxxxxxxxxxxx xxxxxxxxxxxxx
+                        x                         x  
+            xxxxxxxxxxxxxxxxxxxxx            
+            </pre>
+            <p>H<sub>2</sub>SO<sub>4</sub></p>
+            <p>E=MC<sup>2</sup></p>
+        </div>
+        <div class="item">
+            <table border="1">
+                <tr>
+                   <th>Menu item</th>
+                   <th>Calories</th>
+                   <th>Fat</th>
+                </tr>
+                <tr>
+                   <td>Chicken noodle soup</td>
+                   <td>120</td>
+                   <td>2</td>
+                </tr>
+                <tr>
+                   <td>Caesar salad</td>
+                   <td>400</td>
+                   <td>19</td>
+                </tr>
+                <tr>
+                   <td>Com tam bi suon cha</td>
+                   <td>200</td>
+                   <td>8</td>
+                </tr>
+            </table>
+            <table border="1">
+                <tr>
+                    <th rowspan="3">Font size</th>
+                    <td>small</td>
+                </tr>
+                <tr>
+                    <td>Medium</td>
+                </tr>
+                <tr>
+                    <td>Big</td>
+                </tr>
+            </table>
+            <table border="1">
+                <tr>
+                   <td>Apple</td>
+                   <td rowspan="3">Oranges</td>
+                   <td>Pinable</td>
+                </tr>
+                <tr>
+                    <td>Banana</td>
+                    <td>Coconuts</td>
+                </tr>
+                <tr>
+                   <td>Lychees</td>
+                   <td>Heart</td>
+                </tr>
+            </table>
 
-        <i class="fab fa-facebook-square" ></i>
-        <i class="fab fa-github-square"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-pinterest-square"></i>
-        <i class="fab fa-twitch"></i>
-        <i class="fab fa-youtube-square"></i>
+        </div>
 
-        <p class="">Powered by <a href="#"><u>w3.css</u></a></p>
-    </div>
+        <div class="item form">
+            <form action="#">
+                <ul style="list-style: none; padding: 10px; opacity: 0.8;">
+                    <li>Email</li> <input type="email" placeholder="@example.com" required>
+                    <li>Password</li> <input type="password" required> <br />
+                    <input type="submit" class="btn">
+                </ul>
+                <input type="file"> <br />
+                <div>
+                    <input type="color" id="head" name="head"
+                           value="#e66465">
+                    <label for="head">Favorite color</label>
+                </div>
+                
+            </form>
+        </div>
+
+        <div class="item">
+            <fieldset>
+                <legend>Input type</legend>
+                    <form action="#">
+                        <input type="search" placeholder="Search">
+                        <input type="date" name="" id="">
+                        <input type="time">
+                        <input type="checkbox" checked> Nam <input type="checkbox"> Nu 
+                        <input type="number" min="0" max="100" step="2" placeholder="0 to 100"> <br />
+                        <input type="url" placeholder="URL">
+                        <input type="range" min="10" max="100" value="10">
+                        <input type="week">
+                        
+                    </form>
+            </fieldset>               
+        </div>
+        <div class="item" style="width: 50%;">
+            </span><input type="text" list="edu" placeholder="Choose academic level">
+            <datalist id="edu">
+                <option value="Nursery School">
+                <option value="Kindergarten">
+                <option value="Primary School">
+                <option value="Secondary School">
+                <option value="Highschool">
+                <option value="College">
+                <option value="University">
+            </datalist>
+            <span style="margin-left: 10%;">What is your favorite computer OS</span>
+            <select name="OS" style=" padding: 8px;
+            margin-bottom: 6px;
+            border: 1px solid #ccc;">
+                <option value="">Windows</option>
+                <option value="">Linux</option>
+                <option value="">Mac Os</option>
+            </select>
+        </div>
+        <div id="map">
+            <img src="./img/desk work.jpg" usemap="#workmap" alt="Work Desk">
+            <map name="workmap">
+                <area shape="poly" coords="764, 4, 578, 393, 1209, 691, 1296, 491, 1298, 49, 1199, 2" href="#laptop" alt="Laptop" title="Laptop">
+                <area shape="rect" coords="51, 413, 625, 649" href="#paper" alt="" title="Paper">
+                <area shape="circle" coords="209, 153, 110" href="" alt="#coffe" title="Coffe">
+                <area shape="rect" coords="899, 677, 861, 853" href="#Pen"  title="Pen" alt="">
+            </map>
+        </div>
+   </div>
 </body>
 </html>
