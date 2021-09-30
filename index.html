@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/fontawesome-free-5.15.4-web/css/all.css">
+<!-- Link ionic icon -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<title>LoveTravel</title>
+</head> 
+<body>
+	<div id="main">
+		<div class="main__introduce">
+			
+			<div class="introduce__header">
+				<img src="./assets/img/Love Travel – Best Travel WordPress Theme/logo.png" class="logo">
+				
+				<input type="checkbox" hidden id="check-tablet" class="tablet-input">	
+				<div class="blur"></div>
+
+				<div class="menu-tablet">
+					<label for="check-tablet" class="close__menu-tablet">
+						<!-- <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjYxMnB4IiBoZWlnaHQ9IjYxMnB4IiB2aWV3Qm94PSIwIDAgNjEyIDYxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNjEyIDYxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGcgaWQ9Il94MzFfMF80MV8iPg0KCQk8Zz4NCgkJCTxwYXRoIGQ9Ik00MTUuMzM4LDE5Ni42NjJjLTcuNTM1LTcuNTM1LTE5LjczNy03LjUzNS0yNy4yNTMsMGwtODIuMTgxLDgyLjE4bC04MS4wMzMtODEuMDMyYy03LjQ3OC03LjQ3OC0xOS41ODQtNy40NzgtMjcuMDQyLDANCgkJCQljLTcuNDc4LDcuNDc4LTcuNDc4LDE5LjU4NCwwLDI3LjA0Mmw4MS4wMzMsODEuMDMzbC04MS41ODcsODEuNTg3Yy03LjUzNSw3LjUzNS03LjUzNSwxOS43MzYsMCwyNy4yNTNzMTkuNzM3LDcuNTE3LDI3LjI1MywwDQoJCQkJbDgxLjU4OC04MS41ODdsODEuMDMyLDgxLjAzMmM3LjQ3OCw3LjQ3OCwxOS41ODQsNy40NzgsMjcuMDQzLDBjNy40NzgtNy40NzgsNy40NzgtMTkuNTg0LDAtMjcuMDQzbC04MS4wMzMtODEuMDMybDgyLjE4MS04Mi4xOA0KCQkJCUM0MjIuODczLDIxNi4zOTksNDIyLjg3MywyMDQuMTc5LDQxNS4zMzgsMTk2LjY2MnogTTMwNiwwQzEzNi45OTIsMCwwLDEzNi45OTIsMCwzMDZzMTM2Ljk5MiwzMDYsMzA2LDMwNg0KCQkJCWMxNjguOTg4LDAsMzA2LTEzNy4wMTIsMzA2LTMwNlM0NzUuMDA4LDAsMzA2LDB6IE0zMDYsNTczLjc1QzE1OC4xMjUsNTczLjc1LDM4LjI1LDQ1My44NzUsMzguMjUsMzA2DQoJCQkJQzM4LjI1LDE1OC4xMjUsMTU4LjEyNSwzOC4yNSwzMDYsMzguMjVjMTQ3Ljg3NSwwLDI2Ny43NSwxMTkuODc1LDI2Ny43NSwyNjcuNzVDNTczLjc1LDQ1My44NzUsNDUzLjg3NSw1NzMuNzUsMzA2LDU3My43NXoiLz4NCgkJPC9nPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K" /> -->
+						<i class="far fa-times-circle"></i>
+					</label>
+					<h2>HOME</h2>
+					<div class="menu__tablet-list">
+						<h2>PACKAGES</h2>
+					
+					</div>
+				</div>
+				<label for="check-tablet" class="header__tablet">
+					<ion-icon name="menu-outline"></ion-icon>
+				</label>
+				<ul class="header__navbar">
+					<li class="item">
+						<a href="">HOME</a>
+					</li>
+					<li class="menu-dropdown item">
+						<a href="">PACKAGES</a>
+						<ul class="subnav">
+							<li><a class="subItem" href="">Search 1</a></li>
+							<li><a class="subItem" href="">Search 2</a></li>
+							<li><a class="subItem" href="">Tour Packages</a></li>
+						</ul>
+					</li>
+					<li class="menu-dropdown item">
+						<a href="">SHOP</a>
+						<ul class="subnav">
+							<li><a class="subItem" href="">Search 1</a></li>
+							<li><a class="subItem" href="">Search 2</a></li>
+							<li><a class="subItem" href="">Tour Packages</a></li>
+						</ul>
+					</li>
+					<li class="menu-dropdown item">
+						<a href="">ABOUT US</a>
+						<ul class="subnav">
+							<li><a class="subItem" href="">Search 1</a></li>
+							<li><a class="subItem" href="">Search 2</a></li>
+							<li><a class="subItem" href="">Tour Packages</a></li>
+						</ul>
+					</li>
+					<li class="menu-dropdown item">
+						<a href="">ABOUT US</a>
+						<ul class="subnav">
+							<li><a class="subItem" href="">Search 1</a></li>
+							<li><a class="subItem" href="">Search 2</a></li>
+							<li><a class="subItem" href="">Tour Packages</a></li>
+						</ul>
+					</li>
+					<li class="menu-dropdown item">
+						<a href="">PAGES</a>
+						<ul class="subnav">
+							<li><a class="subItem" href="">Search 1</a></li>
+							<li><a class="subItem" href="">Search 2</a></li>
+							<li><a class="subItem" href="">Tour Packages</a></li>
+						</ul>
+					</li>
+					<li class="menu-dropdown item">
+						<a href="">CONTACT</a>
+						<ul class="subnav">
+							<li><a class="subItem" href="">Search 1</a></li>
+							<li><a class="subItem" href="">Search 2</a></li>
+							<li><a class="subItem" href="">Tour Packages</a></li>
+						</ul>
+					</li>
+					<li class="book_Now">
+						<a href="">BOOK NOW</a>
+					</li>
+					
+					<input type="checkbox" id="menu-input" class="menu-input">
+					<label class="checkout" for="menu-input"></label>
+					
+					<div class="menu-bars">
+						<label for="menu-input">
+							<ion-icon name="menu-outline"></ion-icon>	
+						</label>
+					</div>
+					<div class="menu">
+						<label for="menu-input" class="close-menu">
+							<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjYxMnB4IiBoZWlnaHQ9IjYxMnB4IiB2aWV3Qm94PSIwIDAgNjEyIDYxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNjEyIDYxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGcgaWQ9Il94MzFfMF80MV8iPg0KCQk8Zz4NCgkJCTxwYXRoIGQ9Ik00MTUuMzM4LDE5Ni42NjJjLTcuNTM1LTcuNTM1LTE5LjczNy03LjUzNS0yNy4yNTMsMGwtODIuMTgxLDgyLjE4bC04MS4wMzMtODEuMDMyYy03LjQ3OC03LjQ3OC0xOS41ODQtNy40NzgtMjcuMDQyLDANCgkJCQljLTcuNDc4LDcuNDc4LTcuNDc4LDE5LjU4NCwwLDI3LjA0Mmw4MS4wMzMsODEuMDMzbC04MS41ODcsODEuNTg3Yy03LjUzNSw3LjUzNS03LjUzNSwxOS43MzYsMCwyNy4yNTNzMTkuNzM3LDcuNTE3LDI3LjI1MywwDQoJCQkJbDgxLjU4OC04MS41ODdsODEuMDMyLDgxLjAzMmM3LjQ3OCw3LjQ3OCwxOS41ODQsNy40NzgsMjcuMDQzLDBjNy40NzgtNy40NzgsNy40NzgtMTkuNTg0LDAtMjcuMDQzbC04MS4wMzMtODEuMDMybDgyLjE4MS04Mi4xOA0KCQkJCUM0MjIuODczLDIxNi4zOTksNDIyLjg3MywyMDQuMTc5LDQxNS4zMzgsMTk2LjY2MnogTTMwNiwwQzEzNi45OTIsMCwwLDEzNi45OTIsMCwzMDZzMTM2Ljk5MiwzMDYsMzA2LDMwNg0KCQkJCWMxNjguOTg4LDAsMzA2LTEzNy4wMTIsMzA2LTMwNlM0NzUuMDA4LDAsMzA2LDB6IE0zMDYsNTczLjc1QzE1OC4xMjUsNTczLjc1LDM4LjI1LDQ1My44NzUsMzguMjUsMzA2DQoJCQkJQzM4LjI1LDE1OC4xMjUsMTU4LjEyNSwzOC4yNSwzMDYsMzguMjVjMTQ3Ljg3NSwwLDI2Ny43NSwxMTkuODc1LDI2Ny43NSwyNjcuNzVDNTczLjc1LDQ1My44NzUsNDUzLjg3NSw1NzMuNzUsMzA2LDU3My43NXoiLz4NCgkJPC9nPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K" />
+						</label>
+		
+						<div class="best-packages">
+							<h5>BEST</h5>
+							<h2>PACKAGES</h2>							
+						</div>
+						<div class="place">
+							<ul class="travel-item">
+								<li>
+									<img src="./assets/img/Love Travel – Best Travel WordPress Theme/package-1-150x150.jpg" alt="">
+									<div class="description">
+										<h4>Berlin</h4>
+										<br />
+										<i class="fas fa-globe-europe"></i>
+										<p>Germany</p> 
+										<br />
+										<a class="place1-btn" href="#">From 700$</a>
+									</div>
+								</li>	
+							</ul>
+							<ul class="travel-item">
+								<li>
+									<img src="./assets/img/Love Travel – Best Travel WordPress Theme/package-6-150x150.jpg" alt="">
+									<div class="description">
+										<h4>Hong Kong</h4>
+										<br />
+										<i class="fas fa-globe-europe"></i>
+										<p>China</p> 
+										<br />
+										<a class="place2-btn" href="#">From 990$</a>
+									</div>
+								</li>	
+							</ul>
+							<ul class="travel-item">
+								<li>
+									<img src="./assets/img/Hình-ảnh-Vịnh-Hạ-Long-đẹp-nhất-không-thể-bỏ-qua-10.jpg" alt="">
+									<div class="description">
+										<h4>Halong Bay</h4>
+										<br />
+										<i class="fas fa-globe-europe"></i>
+										<p>VietNam</p> 
+										<br />
+										<a class="place3-btn" href="#">From 600$</a>
+									</div>
+								</li>	
+							</ul>
+						</div>
+						<div class="travel-package">
+							<img src="./assets/img/Love Travel – Best Travel WordPress Theme/destination-9.jpg">
+							<div class="package-box">
+								<div class="overlay"></div>
+
+								<h3 class="name">Europe</h3>
+								<p class="detail">3 PACKAGES</p>
+							</div>
+							<div class="package-box--hover">
+								<h3>Packages</h3>
+								<p>Berlin</p>
+								<p>Amsterdam</p>
+								<p>Tuscany</p>
+								<a href="#">VIEW DESTINATION</a>
+							</div>
+
+						</div>
+						<div class="best-packages">
+							<h5>LAST</h5>
+							
+							<h2>MINUTES</h2>
+							
+						</div>
+						<div class="place">
+							<ul class="travel-item">
+								<li>
+									<img src="./assets/img/Love Travel – Best Travel WordPress Theme/package-2-150x150.jpg" alt="">
+									<div class="description">
+										<h4>San Francisco</h4>
+										<br />
+										<i class="fas fa-globe-europe"></i>
+										<p>United State</p> 
+										<br />
+										<a class="place1-btn" href="#">From 1050$</a>
+									</div>
+								</li>	
+							</ul>
+							<ul class="travel-item">
+								<li>
+									<img src="./assets/img/Love Travel – Best Travel WordPress Theme/package-5-150x150.jpg" alt="">
+									<div class="description">
+										<h4>Tuscany</h4>
+										<br />
+										<i class="fas fa-globe-europe"></i>
+										<p>Italy</p> 
+										<br />
+										<a class="place2-btn" href="#">From 1020$</a>
+									</div>
+								</li>	
+							</ul>
+							<ul class="travel-item">
+								<li>
+									<img src="./assets/img/Love Travel – Best Travel WordPress Theme/package-4-150x150.jpg" alt="">
+									<div class="description">
+										<h4>Amsterdam</h4>
+										<br />
+										<i class="fas fa-globe-europe"></i>
+										<p>Netherland</p> 
+										<br />
+										<a class="place3-btn" href="#">From 1200$</a>
+									</div>
+								</li>	
+							</ul>
+						</div>
+					</div>
+				</ul>
+			</div>
+			
+			<img src="./assets/img/Love Travel – Best Travel WordPress Theme/parallax-2.jpg" alt="">
+		</div>
+
+	</div>
+</body>
+</html>
